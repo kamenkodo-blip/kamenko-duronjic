@@ -1,0 +1,35 @@
+
+main {
+border: 1px solid grey;
+width: 542px;
+}
+a {
+font-family: "Arial", sens-serif;
+padding: 20px;
+display: inline-block;
+border-bottom: 2px solid transparent;
+color: #b587f6;
+text-decoration: none;
+}
+
+a:hover {
+color: white;
+border-bottom-color: white;
+}
+nav {
+background-color: #6200ee;
+box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+
+}
+section {
+font-size:0px;
+}
+/*trik za uklanjanje praznina izmedju inline-block elemenata*/
+
+img {
+object-fit:cover;
+width: 256px;
+height: 256px;
+margin: 10px 0 10px 10px;
+}
+
