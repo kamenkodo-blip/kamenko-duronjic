@@ -1,0 +1,42 @@
+body {
+  font-family: "Arial", sans-serif;
+}
+
+img {
+width:300px;
+margin:0px 0px 0px 0px;
+border-radius: 20px 20px 0px 0px;
+}
+
+div {
+margin: 10px;
+width:300px;
+border: 1px solid #e7e7e7;
+border-radius: 20px;
+margin: 20px;
+}
+
+p {
+padding: 10px 10px 10px 10px;
+font-size: 18px;
+}
+h1{
+padding: 10px 10px 10px 10px;
+}
+
+a {
+background-color: blue;
+display: inline-block;
+width: 200px;
+ padding: 20px;
+ margin:20px 20px 20px 20px;
+ color: white;
+ text-align: center;
+ text-decoration: none;
+font-size: 20px;
+border-radius: 10px;
+}
+a:hover {
+background-color: white;
+color: blue;
+}
