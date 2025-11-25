@@ -1,0 +1,56 @@
+/* 1. Уопштено подешавање */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+/* Стилови за листу менија (.meni)*/
+.meni {
+    margin: 0;
+    padding: 8px 0px;
+    width: 250px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    list-style: none;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.87);
+    border-radius: 4px;
+}
+.meni hr {
+	/* Подеси да hr има исту боју ивице као и мени (rgba(0,0,0,0.12)).*/
+    border-color: rgba(0, 0, 0, 0.12);
+}
+/* Стил за ставке менија*/
+.meni li {
+    padding: 6px 16px;
+    font-size: 0;
+}
+/*При hover-у треба*/
+.meni li:hover {
+    background-color: rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+}
+/*Иконица (.material-icons)*/
+.meni .material-icons {
+    width: 32px;
+}
+/* Текст ставке*/
+.meni .tekst {
+    display: inline-block;
+    width: 134px;
+}
+/* Пречица на тастатури*/
+.meni .precica {
+    display: inline-block;
+    width: 50px;
+    text-align: right;
+}
+/*Општи стил за све span елементе у менију*/
+.meni span {
+    font-size: 16px;
+}
+/*Боја иконице, пречице */
+.meni .material-icons, .meni .precica {
+    color: rgba(0, 0, 0, 0.54);
+}
